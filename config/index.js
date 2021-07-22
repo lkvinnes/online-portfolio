@@ -3,8 +3,7 @@ module.exports = {
   author: "@lkvinnes",
   siteTitle: "Online Portfolio - Lars Kvinnesland",
   siteShortTitle: "Online Portfolio", // Used as logo text in header, footer, and splash screen
-  siteDescription:
-    "A modern one-page portfolio with a clean yet expressive design.",
+  siteDescription: "Online Portfolio - Lars Kvinnesland",
   siteUrl: "https://www.larskvinnesland.com",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
@@ -69,7 +68,7 @@ module.exports = {
       url: "https://twitter.com/larskvinnesland",
     },
     {
-      name: "Research Gate",
+      name: "ResearchGate",
       url: "https://www.researchgate.net/profile/Lars-Kvinnesland",
     },
     // {
@@ -89,26 +88,22 @@ module.exports = {
         name: "Experience",
         url: "/#projects",
       },
-      {
-        name: "Contact",
-        url: "/#contact",
-      },
     ],
     button: {
       useFileName: true,
       name: "Resume",
-      fileName: "goldenpuppy.pdf", // the file has to be placed inside the static folder at the root level
+      fileName: "cv_kvinnesland_2020.pdf", // the file has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
   },
   footerLinks: [
     {
-      name: "Privacy",
-      url: "/privacy",
+      name: "",
+      url: "/hero",
     },
     {
-      name: "Imprint",
-      url: "/imprint",
+      name: "",
+      url: "/projects",
     },
   ],
 }
