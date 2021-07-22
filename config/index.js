@@ -27,11 +27,11 @@ module.exports = {
     },
     darkTheme: {
       primary: "#FAFAFA",
-      secondary: "#2A2926",
+      secondary: "#060f1f",
       tertiary: "#252525",
       text: "rgba(255, 255, 255, 0.87)",
       subtext: "#AAAAAA",
-      background: "#121212",
+      background: "#010409",
       card: "#1C1C1C",
       scrollBar: "rgba(255, 255, 255, 0.5)",
       boxShadow: "rgba(0, 0, 0, 0.16)",
