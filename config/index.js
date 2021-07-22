@@ -1,8 +1,8 @@
 module.exports = {
   //-- SITE SETTINGS -----
-  author: "@konstantinmuenster",
-  siteTitle: "Gatsby Starter Portfolio Minimal",
-  siteShortTitle: "Gatsby", // Used as logo text in header, footer, and splash screen
+  author: "@lkvinnes",
+  siteTitle: "Online Portfolio - Lars Kvinnesland",
+  siteShortTitle: "Online Portfolio", // Used as logo text in header, footer, and splash screen
   siteDescription:
     "A modern one-page portfolio with a clean yet expressive design.",
   siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
@@ -16,7 +16,7 @@ module.exports = {
   colors: {
     lightTheme: {
       primary: "#000000",
-      secondary: "#FFF4D9",
+      secondary: "#fdd9a3",
       tertiary: "#F2F2F2",
       text: "#000000",
       subtext: "#555555",
@@ -40,7 +40,7 @@ module.exports = {
     },
   },
   fonts: {
-    primary: "Roboto, Arial, sans-serif",
+    primary: "Source Sans Pro, Arial, sans-serif",
   },
 
   //-- ARTICLES SECTION SETTINGS -----
@@ -58,24 +58,23 @@ module.exports = {
   socialMedia: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/konstantin-muenster/",
+      url: "https://www.linkedin.com/in/larskvinnesland/",
     },
     {
-      name: "Medium",
-      url: "https://konstantinmuenster.medium.com/",
+      name: "Instagram",
+      url: "https://www.instagram.com/larskvinnesland/",
     },
     {
-      name: "Github",
-      url:
-        "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal",
+      name: "Twitter",
+      url: "https://twitter.com/larskvinnesland",
     },
     {
-      name: "Behance",
-      url: "https://www.behance.net/konstanmnster",
+      name: "Research Gate",
+      url: "https://www.researchgate.net/profile/Lars-Kvinnesland",
     },
     // {
     //   name: "Mail",
-    //   url: "mailto:mail@konstantin.digital",
+    //   url: "mailto:lkvinnes@gmail.com",
     // },
   ],
 
@@ -84,10 +83,10 @@ module.exports = {
     menu: [
       {
         name: "About Me",
-        url: "/#about",
+        url: "/#hero",
       },
       {
-        name: "Features",
+        name: "Projects & Experience",
         url: "/#projects",
       },
       {
