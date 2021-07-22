@@ -5,7 +5,7 @@ module.exports = {
   siteShortTitle: "Online Portfolio", // Used as logo text in header, footer, and splash screen
   siteDescription:
     "A modern one-page portfolio with a clean yet expressive design.",
-  siteUrl: "https://gatsby-starter-portfolio-minimal.netlify.app/",
+  siteUrl: "https://www.larskvinnesland.com",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
   seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
@@ -86,7 +86,7 @@ module.exports = {
         url: "/#hero",
       },
       {
-        name: "Projects & Experience",
+        name: "Experience",
         url: "/#projects",
       },
       {
