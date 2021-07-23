@@ -53,11 +53,11 @@ const StyledContentWrapper = styled(ContentWrapper)`
     }
     .projects {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       margin-top: -2.5rem;
       padding: 2.5rem 2.5rem;
-      overflow-x: scroll;
-      overflow-y: hidden;
+      overflow-x: hidden;
+      overflow-y: scroll;
       -webkit-overflow-scrolling: touch;
       &::-webkit-scrollbar {
         display: none;
@@ -113,12 +113,12 @@ const StyledProject = styled(motion.div)`
   margin-top: 0;
   margin-bottom: 2rem;
   flex-shrink: 0;
-  padding-right: 2.5rem;
+  padding-right: 1rem;
   max-width: 20rem;
   @media (min-width: ${({ theme }) => theme.breakpoints.xs}) {
     max-width: 25rem;
     margin-top: 2rem;
-    padding-right: 5rem;
+    padding-right: 1rem;
   }
   @media (min-width: ${({ theme }) => theme.breakpoints.md}) {
     justify-content: space-between;
