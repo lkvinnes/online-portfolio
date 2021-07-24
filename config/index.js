@@ -1,9 +1,9 @@
 module.exports = {
   //-- SITE SETTINGS -----
   author: "@lkvinnes",
-  siteTitle: "Online Portfolio - Lars Kvinnesland",
-  siteShortTitle: "Online Portfolio", // Used as logo text in header, footer, and splash screen
-  siteDescription: "Online Portfolio - Lars Kvinnesland",
+  siteTitle: "Portfolio - Lars Kvinnesland",
+  siteShortTitle: "Portfolio - Lars Kvinnesland", // Used as logo text in header, footer, and splash screen
+  siteDescription: "Portfolio - Lars Kvinnesland",
   siteUrl: "https://www.larskvinnesland.com",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
