@@ -91,7 +91,7 @@ module.exports = {
     ],
     button: {
       useFileName: true,
-      name: "Resume",
+      name: "🔒 Resume",
       fileName: "cv_kvinnesland_2020.pdf", // the file has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
