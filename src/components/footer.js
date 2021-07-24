@@ -53,7 +53,7 @@ const Footer = () => {
       <StyledContentWrapper>
         <Link to="/" aria-label="home">
           <Logo
-            size="1.5rem"
+            size="1rem"
             color={
               darkMode ? darkTheme.colors.primary : lightTheme.colors.background
             }
