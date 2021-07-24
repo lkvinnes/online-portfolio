@@ -1,9 +1,9 @@
 module.exports = {
   //-- SITE SETTINGS -----
   author: "@lkvinnes",
-  siteTitle: "Online Portfolio - Lars Kvinnesland",
-  siteShortTitle: "Online Portfolio", // Used as logo text in header, footer, and splash screen
-  siteDescription: "Online Portfolio - Lars Kvinnesland",
+  siteTitle: "Portfolio - Lars Kvinnesland",
+  siteShortTitle: "Portfolio - Lars Kvinnesland", // Used as logo text in header, footer, and splash screen
+  siteDescription: "Portfolio - Lars Kvinnesland",
   siteUrl: "https://www.larskvinnesland.com",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
@@ -91,7 +91,7 @@ module.exports = {
     ],
     button: {
       useFileName: true,
-      name: "Resume",
+      name: "🔒 Resume",
       fileName: "cv_kvinnesland_2020.pdf", // the file has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },

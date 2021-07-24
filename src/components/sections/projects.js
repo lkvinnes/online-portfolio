@@ -18,7 +18,7 @@ const StyledSection = styled.section`
   width: 100%;
   height: auto;
   background: ${({ theme }) => theme.colors.background};
-  margin-top: 6rem;
+  margin-top: 2rem;
   .cta-btn {
     display: block;
     text-align: center;
@@ -232,7 +232,7 @@ const Projects = ({ content }) => {
     // "false" initially
     let initial = {}
     projects.forEach(project => {
-      initial[project.node.frontmatter.position] = false
+      initial[project.node.frontmatter.position] = true
     })
     setOnScreen(initial)
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -242,7 +242,7 @@ const Projects = ({ content }) => {
   const tRef = useRef()
   const tOnScreen = useOnScreen(tRef)
   const tVariants = {
-    hidden: { opacity: 0 },
+    visible: { opacity: 0 },
     visible: { opacity: 1 },
   }
 
@@ -263,9 +263,6 @@ const Projects = ({ content }) => {
           animate={tOnScreen ? "visible" : "hidden"}
         >
           <h3 className="section-title">{sectionDetails.frontmatter.title}</h3>
-          <div className="counter">
-            {visibleProject} / {projects.length}
-          </div>
         </motion.div>
         <div className="projects">
           {projects.map((project, key) => {
