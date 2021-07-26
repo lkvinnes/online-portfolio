@@ -4,6 +4,6 @@ My personal online portfolio based on the github project [Gatsby Starter Portfol
 
 ---
 
-<img src="screenshot.png" alt="Gatsby Starter Portfolio Minimal Screenshot" width="600" />
+<img src="screenshot.png" alt="Gatsby Starter Portfolio Minimal Screenshot" width="100%" />
 
 ---
