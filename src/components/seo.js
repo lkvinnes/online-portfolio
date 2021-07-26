@@ -12,10 +12,10 @@ const SEO = ({ description, lang, meta, title }) => {
       query {
         site {
           siteMetadata {
-            Lars Kvinnesland - Portfolio
-            Product Design and UX/UI Design portfolio · Lars Kvinnesland
-            Lars Kvinnesland
-            https://www.larskvinnesland.com/
+            title
+            description
+            author
+            siteUrl
           }
         }
       }
