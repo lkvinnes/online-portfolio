@@ -1,13 +1,13 @@
 module.exports = {
   //-- SITE SETTINGS -----
   author: "@lkvinnes",
-  siteTitle: "Portfolio - Lars Kvinnesland",
-  siteShortTitle: "Portfolio - Lars Kvinnesland", // Used as logo text in header, footer, and splash screen
-  siteDescription: "Portfolio - Lars Kvinnesland",
+  siteTitle: "Lars Kvinnesland - Portfolio",
+  siteShortTitle: "Lars Kvinnesland - Portfolio", // Used as logo text in header, footer, and splash screen
+  siteDescription: "Lars Kvinnesland - Portfolio",
   siteUrl: "https://www.larskvinnesland.com",
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
-  seoTitleSuffix: "Portfolio Minimal", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
+  seoTitleSuffix: "Lars Kvinnesland - Portfolio", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
   useCookieBar: false, // If you use Google Analytics and want to be GDPR-compliant, set it to true
   googleAnalyticsTrackingId: "", // e.g. UA-XXXXXX-X
 
