@@ -18,6 +18,7 @@ module.exports = {
       primary: "#000000",
       secondary: "#fdd9a3",
       tertiary: "#F2F2F2",
+      highlight: "#fdd9a3",
       text: "#000000",
       subtext: "#555555",
       background: "#FFFFFF",

@@ -57,7 +57,7 @@ const Imprint = ({ data }) => {
               ? `${seoTitle} - ${seoTitleSuffix}`
               : `${seoTitle}`
           }
-          meta={[{ name: "robots", content: "noindex" }]}
+          meta={[{ name: "", content: "" }]}
         />
         <StyledSection id={title}>
           <StyledContentWrapper>
