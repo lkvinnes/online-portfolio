@@ -49,14 +49,12 @@ module.exports = {
         icon: siteIcon, // This path is relative to the root of the site.
       },
     },
-    (module.exports = {
+    {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://www.example.com",
-        sitemap: "https://www.example.com/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
-    }),
+    },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
