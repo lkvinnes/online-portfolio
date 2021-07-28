@@ -17,8 +17,7 @@ module.exports = {
     lightTheme: {
       primary: "#000000",
       secondary: "#fdd9a3",
-      tertiary: "#F2F2F2",
-      highlight: "#fdd9a3",
+      tertiary: "#fdd9a3",
       text: "#000000",
       subtext: "#555555",
       background: "#FFFFFF",
@@ -29,8 +28,8 @@ module.exports = {
     },
     darkTheme: {
       primary: "#FAFAFA",
-      secondary: "#faa6000f",
-      tertiary: "#252525",
+      secondary: "#61dafb",
+      tertiary: "#61dafb",
       text: "rgba(255, 255, 255, 0.87)",
       subtext: "#AAAAAA",
       background: "#0e1116",
