@@ -7462,7 +7462,7 @@
     "semver" "^7.3.2"
     "sharp" "^0.27.0"
 
-"gatsby-plugin-mdx@^1.6.0":
+"gatsby-plugin-mdx@^1.10.1":
   "integrity" "sha512-imNVJEMBgaVX5P/V6/+cDja4RqG9i/h+9+2x+B5lM6JeAWz/GsiZ1xmv0iUPMTgMWSh+DRYW9gWc9KXeXJzCFQ=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.10.1.tgz"
   "version" "1.10.1"
@@ -13898,22 +13898,12 @@
     "shallowequal" "^1.1.0"
     "source-map" "^0.7.3"
 
-"react-is@^16.12.0":
+"react-is@^16.12.0", "react-is@^16.13.1", "react-is@^16.7.0", "react-is@^16.8.1", "react-is@>= 16.8.0":
   "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react-is@^16.7.0":
-  "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
-  "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
-  "version" "16.13.1"
-
-"react-is@^16.8.1":
-  "integrity" "sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ=="
-  "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
-  "version" "16.13.1"
-
-"react-is@^17.0.1", "react-is@>= 16.8.0":
+"react-is@^17.0.1":
   "integrity" "sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
   "version" "17.0.2"
@@ -16005,7 +15995,7 @@
     "hey-listen" "^1.0.8"
     "tslib" "^1.10.0"
 
-"styled-components@^2.0.0 || ^3.2.6 || ^4.1.2", "styled-components@^5.2.1", "styled-components@>= 2", "styled-components@>=2.0.0":
+"styled-components@^2.0.0 || ^3.2.6 || ^4.1.2", "styled-components@^5.3.0", "styled-components@>= 2", "styled-components@>=2.0.0":
   "integrity" "sha512-bPJKwZCHjJPf/hwTJl6TbkSZg/3evha+XPEizrZUGb535jLImwDUdjTNxXqjjaASt2M4qO4AVfoHJNe3XB/tpQ=="
   "resolved" "https://registry.npmjs.org/styled-components/-/styled-components-5.3.0.tgz"
   "version" "5.3.0"
